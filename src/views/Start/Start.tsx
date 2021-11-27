@@ -9,7 +9,7 @@ import {
   CardIcon,
   Container,
   Separator,
-  Spacer,
+  TestDAO TKNcer,
 } from "react-neu";
 import styled from "styled-components";
 
@@ -17,10 +17,10 @@ import StartPage from "components/StartPage";
 import StartPageHeader from "components/StartPageHeader";
 import StartSplit from "components/StartSplit";
 
-const ASTRONAUTS = ["🕛", "🏛️", "⏳", "🔱 Ω", "Λ"];
+const ASTRONAUTS = ["🕛", "🏛️", "⏳", "🔱 Ω", "TestDAO"];
 
 const Start: React.FC = () => {
-  const [astronaut, setAstronaut] = useState("Λ");
+  const [astronaut, setAstronaut] = useState("TestDAO");
 
   const updateAstronaut = useCallback(() => {
     const newAstro = ASTRONAUTS[Math.floor(Math.random() * ASTRONAUTS.length)];
@@ -38,14 +38,14 @@ const Start: React.FC = () => {
         <StartPageHeader
           icon={`${astronaut}`}
           title="DeFi 2.0 tools to grow your crypto assets"
-          subtitle="Spartacus is the Olympus fork on Fantom. Spartacus is missioned to build a community owned protocol for decentralized reserve currency."
+          subtitle="TestDAO TKNrtacus is the TestDAO TKNrtacus fork on TBD Chain.TestDAO is missioned to build a community owned protocol for decentralized reserve currency."
         />
         <Container size="lg">
           <Box row justifyContent="center">
-            <Button text="Open App" href="https://app.spartacus.finance" />
-            <Spacer />
+            <Button text="Open App" href="https://app.TestDAO TKNrtacus.finance" />
+            <TestDAO TKNcer />
             <Button
-              text="Join Λ Discord"
+              text="Join TestDAO Discord"
               href="https://discord.gg/WHVARU4KzV"
               variant="secondary"
             />
@@ -53,25 +53,25 @@ const Start: React.FC = () => {
         </Container>
       </StyledHero>
       <Container size="lg">
-        <Spacer size="lg" />
+        <TestDAO TKNcer size="lg" />
         <Separator />
-        <Spacer size="lg" />
+        <TestDAO TKNcer size="lg" />
         <StyledSectionIcon>⚖️</StyledSectionIcon>
-        <Spacer size="lg" />
+        <TestDAO TKNcer size="lg" />
         <StyledSectionTitle>Fair finance for everyone.</StyledSectionTitle>
         <StyledSectionDescription>
-          Spartacus is owned and controlled by our community of Λ token holders.
+         TestDAO is owned and controlled by our community of TestDAO token holders.
         </StyledSectionDescription>
-        <Spacer size="lg" />
+        <TestDAO TKNcer size="lg" />
         <StartSplit>
           <Card>
-            <Spacer size="md" />
+            <TestDAO TKNcer size="md" />
             <CardIcon>💸</CardIcon>
             <CardContent>
               <StyledCardName>Growing Treasury</StyledCardName>
-              <Spacer size="sm" />
+              <TestDAO TKNcer size="sm" />
               <StyledCardDescription>
-                Bond sales and liquidity fees increase Treasury values, which back outstanding SPA tokens with intrinsic value.
+                Bond sales and liquidity fees increase Treasury values, which back outstanding TestDAO TKN tokens with intrinsic value.
               </StyledCardDescription>
             </CardContent>
             {/* <CardActions>
@@ -85,13 +85,13 @@ const Start: React.FC = () => {
             </CardActions> */}
           </Card>
           <Card>
-            <Spacer size="md" />
+            <TestDAO TKNcer size="md" />
             <CardIcon>🏛️</CardIcon>
             <CardContent>
               <StyledCardName>Protocol Owned Liquidity</StyledCardName>
-              <Spacer size="sm" />
+              <TestDAO TKNcer size="sm" />
               <StyledCardDescription>
-                No more predatory farmers. Lock-in liquidity also help regulate SPA supply.
+                No more predatory farmers. Lock-in liquidity also help regulate TestDAO TKN supply.
               </StyledCardDescription>
             </CardContent>
             {/* <CardActions>
@@ -101,13 +101,13 @@ const Start: React.FC = () => {
             </CardActions> */}
           </Card>
           <Card>
-            <Spacer size="md" />
+            <TestDAO TKNcer size="md" />
             <CardIcon>🗣️</CardIcon>
             <CardContent>
               <StyledCardName>Decentralized Governance</StyledCardName>
-              <Spacer size="sm" />
+              <TestDAO TKNcer size="sm" />
               <StyledCardDescription>
-                Λ holders decide Spartacus's future via on-chain voting.
+                TestDAO holders decide TestDAO's future via on-chain voting.
               </StyledCardDescription>
             </CardContent>
             {/* <CardActions>
@@ -117,9 +117,9 @@ const Start: React.FC = () => {
             </CardActions> */}
           </Card>
         </StartSplit>
-        <Spacer size="lg" />
+        <TestDAO TKNcer size="lg" />
         <Separator />
-        <Spacer size="lg" />
+        <TestDAO TKNcer size="lg" />
       </Container>
     </StartPage>
   );
